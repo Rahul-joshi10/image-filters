@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+   <script src="image-java.js">
+
+   </script>
+   <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+
+   </script>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap">
+   <link rel="stylesheet" href="image-css.css">
+  </head>
+  <body>
+    <h1><u>Image Filter</u></h1>
+    <h2>Select Image</h2>
+    <p>
+    <label class="file_upload">
+    <input type="file" multiple="false"
+           accept="image/*" id="img"
+           onchange="upload()">Upload Image
+    </label>
+
+     <canvas id="can"></canvas>
+
+      <input type="button" value="Dew Red"
+            class="button" onclick="red()">
+
+      <input type="button" value="Monochrome"
+            class="button" onclick="monochrome()">
+
+      <input type="button" value="Inverted"
+            class="button" onclick="inverted()">
+
+      <input type="button" value="Rainbow"
+            class="button" onclick="rainbow()">
+
+      <input type="button" value="Blur"
+            class="button" onclick="makeblur()">
+
+      <input type="button" value="Reset"
+            class="button" onclick="reset()">
+
+      <div id="sz"> PICTURE SIZE:
+        <input type="button" value="Size of Image"
+               class="button" onclick="makesize()">
+      </div>
+     </p>
+  </body>
+</html>

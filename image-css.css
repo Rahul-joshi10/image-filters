@@ -1,0 +1,60 @@
+body{
+  background:lightblue url("https://i.stack.imgur.com/jGlzr.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+h1{
+  background-color:brown;
+  text-align:center;
+  font-family: "Sansita Swashed", cursive;
+  font-weight:bold;
+  }
+canvas  {
+  height: 200px;
+  border: 2px solid white;
+  padding: auto;
+  margin: auto;
+  display: block;
+  width: auto;
+}
+h2{
+  text-align:center;
+  font-family: "Sansita Swashed", cursive;
+  font-weight:bold;
+}
+input[type="file"] {
+  display: none;
+  border: 1px solid black;
+}
+.file_upload {
+  border: 2px;
+  border-style: outset;
+  display: inline-block;
+  color: white;
+  font-family: "Sansita Swashed", cursive;
+  padding: 6px 12px;
+  background-color: rgb(86, 86, 86);
+  margin: 1px 10px 20px 10px;
+  cursor: pointer;
+}
+.button{
+  border: 2px;
+  border-style: outset;
+  display: inline-block;
+  color:white ;
+  font-family: "Sansita Swashed", cursive;
+  padding: 6px 12px;
+  background-color: rgb(86, 86, 86);
+  margin: 1px 10px 20px 10px;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+  }
+
+div{
+  font-family: "Sansita Swashed", cursive;
+  color: white;
+  text-align: center;
+   }
